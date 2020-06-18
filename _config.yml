@@ -18,24 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Corey Cothrum
-email: contact@coreycothrum.com
-description: >- # this means to ignore newlines until "baseurl:"
+title              : Corey Cothrum
+url                : "http://www.coreycothrum.com"
+baseurl            : "" # the subpath of your site, e.g. /blog
+description        : >- # this means to ignore newlines until "baseurl:"
   Musician. Programmer. Cat enthusiast.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.coreycothrum.com"
 
-google_analytics   : G-YTCY17TH4P
-
-twitter_username   : coreycothrum
+#facebook_username  : coreycothrum
 github_username    : coreycothrum
 instagram_username : coreycothrum
+linkedin_username  : coreycothrum
+#twitter_username   : coreycothrum
 youtube_username   : coreycothrum
-facebook_username  : coreycothrum
 
-contact_email   : contact@coreycothrum.com
-booking_email   : ""
-licensing_email : ""
+email              : contact@coreycothrum.com
+contact_email      : contact@coreycothrum.com
+booking_email      : ""
+licensing_email    : ""
+
+google_analytics   : G-YTCY17TH4P
 
 header_pages:
       -
